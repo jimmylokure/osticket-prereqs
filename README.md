@@ -34,22 +34,83 @@ This lab outlines the prerequisites and installation of the open-source help des
 <img src="https://i.imgur.com/OkLP3jH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here we created a Windows 10 image virtual machine with two vcpus and 8gb of memory. This was done in the Microsoft Azure Portal.
+1) Here we created a Windows 10 image virtual machine with two vcpus and 8gb of memory. This was done in the Microsoft Azure Portal. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/H2SXVAR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2) After logging in through the Remote Desktop Connection software, I downloaded, and extracted the osTicket Zip Folder within the VM with all the prerequisites to install osTicket,
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nYDRtHN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3) Turned on Internet Information Services (IIS) and CGI from within the control panel "Programs and Features" tab. (Internet Information Services > World Wide Web Services > Application Development Features > CGI)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kij51hK.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/YlFyhGa.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+4) Next, I downloaded the Rewrite Module and PHP Manager for IIS from the extracted osTicket Installation folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/AUz3im9.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ndAVGQY.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/GStrrqQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+5) I then created a new folder in the C drive called "PHP" (C:\PHP) and unzipped PHP 7.3.8's contents into that directory.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5NTZoHY.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/G5pOVf1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/6dh9oQa.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+6) I also download the VC 86x Redistributible and MySQL from the osTicket Installation folder we extracted. I launched the Instance Configuration Wizard after finishing the installation for MySQL
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/TMdvdcD.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+7) Inside the Instance Configuration Wizard, I chose a memorable user and password for the MySQL database; user is 'root', and the password is 'root', just for the sake of practice within the lab project.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Shb3gj3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/n.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/G.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8) 
 </p>
 <br />
