@@ -213,3 +213,8 @@ MySQL Password is 'root' or the password you chose for MySQL and HeidiSQL the sa
 17) Click 'install now'. OsTicket Installation Prereq lab is finished. 
 </p>
 <br />
+
+<p>
+![](https://github.com/jimmylokure/osticket-prereqs/blob/main/bean-mrbean.gif)
+</p>
+<br />
